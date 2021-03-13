@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "@asciidoctor/cli": "^3.4.0",
+    "@asciidoctor/core": "^2.2.1",
     "asciidoctor": "^2.2.1"
   }
 }
