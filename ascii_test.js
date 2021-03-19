@@ -1,8 +1,9 @@
 
 // var asciidoctor = Asciidoctor()
 
+var url = './Asciidoctor_test/03_body.adoc'
 
-var loaddoc = asciidoctor.loadFile('./Asciidoctor_test/03_body.adoc')
+var loaddoc = asciidoctor.loadFile(url)
 
 var html = asciidoctor.convert(loaddoc)
 
